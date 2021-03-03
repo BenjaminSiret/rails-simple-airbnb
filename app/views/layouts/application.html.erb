@@ -10,6 +10,15 @@
   </head>
 
   <body>
+
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Simple Airbnb</a>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" type="submit"><%= link_to "Add Flat", new_flat_path %></button>
+        </form>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
